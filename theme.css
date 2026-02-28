@@ -975,38 +975,3 @@ lol-social-chat-window .conversation.active::before{
 lol-social-roster .more-unread .more-unread-bar{
   background-color: #BB86FF !important;
 }
-
-/* ===== PLAY BUTTON HARD FIX ===== */
-
-.play-button-container {
-    position: relative !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-}
-
-/* Buton gövdesi */
-.play-button-content {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-
-    height: 40px !important;
-    min-width: 130px !important;
-    padding: 0 28px !important;
-
-    white-space: nowrap !important;   /* 2 satırı engeller */
-    line-height: 40px !important;
-    font-size: 14px !important;
-}
-
-/* İçteki PLAY yazısı */
-.play-button-content span {
-    display: inline-block !important;
-    white-space: nowrap !important;
-    line-height: normal !important;
-}
-
-/* İkon grubuna yapışmayı engeller */
-.top-bar-left .play-button-container {
-    margin-left: 18px !important;
