@@ -988,3 +988,20 @@ lol-social-roster .more-unread .more-unread-bar{
     text-align: center !important;
     width: 100% !important;
 }
+
+/* Play Butonu Yazı Boyutu ve Hizalama Düzeltmesi */
+.play-button-text {
+    display: flex !important;           /* Yazıyı esnek bir kutu içine alır */
+    justify-content: center !important;  /* Yatayda tam orta */
+    align-items: center !important;     /* Dikeyde tam orta */
+    text-align: center !important;      /* Metin hizalamasını garantiye alır */
+    
+    font-size: 18px !important;         /* Yazıyı buradan büyütebilirsin (örn: 20px yapabilirsin) */
+    font-weight: bold !important;       /* Yazının daha okunaklı ve kalın olması için */
+    
+    white-space: nowrap !important;     /* Tek satırda kalmasını sağlar */
+    width: 100% !important;             /* Butonun tüm genişliğini kullanır */
+    height: 100% !important;            /* Butonun tüm yüksekliğini kullanır */
+    margin: 0 !important;               /* Varsa kenar boşluklarını sıfırlar */
+    padding: 0 !important;              /* Varsa iç boşlukları sıfırlar */
+}
