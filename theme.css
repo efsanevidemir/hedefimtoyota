@@ -775,27 +775,6 @@ lol-uikit-flat-button-secondary{
 
 /* NAVIGATION */
 
-.rcp-fe-lol-collections-collection-details {
-  filter: hue-rotate(-131deg) !important;
-}
-
-.collection-tier-information{
-  filter: hue-rotate(131deg) !important;
-}
-
-.collection-tier-information{
-  filter: hue-rotate(131deg) !important;
-}
-
-.collection-bottom-info{
-  filter: hue-rotate(131deg) !important;
-}
-
-.collections-sub-nav-container{
-  z-index: 10 !important;
-  filter: hue-rotate(206deg) !important;
-}
-
 
 /*.parties-background lol-uikit-background-switcher{
   content: url(http://mmmx22.ct8.pl/bc.jpg) !important;
