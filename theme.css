@@ -975,3 +975,16 @@ lol-social-chat-window .conversation.active::before{
 lol-social-roster .more-unread .more-unread-bar{
   background-color: #BB86FF !important;
 }
+
+/* Play butonunun konumu ve yazı düzeni için düzeltme */
+.play-button-container {
+    left: 130px !important; /* Butonu sola çekerek ikonla çakışmasını önler */
+    width: 120px !important; /* Buton genişliğini yazının sığacağı şekilde sabitler */
+}
+
+.play-button-text {
+    white-space: nowrap !important; /* Yazının tek satırda kalmasını sağlar */
+    display: block !important;
+    text-align: center !important;
+    width: 100% !important;
+}
