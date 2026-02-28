@@ -261,11 +261,12 @@ lol-uikit-full-page-backdrop {
 }
 
 .play-button-text:after{
-    content:'\25B6  PLAY'; 
+   content:'\25B6  PLAY'; 
   visibility: visible;
   display: block;
   position: absolute;
-  right: 11px !important;
+  right: 20px !important; /* 11px idi, yazıyı içeriye doğru kaydırdık */
+  top: 1px !important;    /* Dikeyde tam ortalamak için ekledik */
 }
 
 #rcp-fe-viewport-root > .rcp-fe-viewport-overlay > .screen-root[style*="visibility: hidden;"] ~ .play-button-text:after {
@@ -793,10 +794,10 @@ lol-uikit-flat-button-secondary{
 
 
 .basic-button{
-  left: 470px !important;
+ left: 34.5vw !important;  /* 32vw idi, biraz daha sağa çektik */
+  top: 18px !important;     /* 15px idi, biraz aşağı indirdik */
+  width: 135px !important;  /* 122px idi, yazının sığması için genişlettik */
   height: 48px !important;
-  width: 122px !important;
-  top: 15px !important;
 }
 
 .left-nav-menu{
@@ -837,7 +838,7 @@ lol-uikit-video-state-machine{
 }
 
 .play-button-content{
-  left: 30px !important;
+  left: 15px !important;
 }
 
 :host .parties-status-card.open {
